@@ -1,4 +1,4 @@
-﻿namespace GodOfHacker
+namespace GodOfHacker
 {
     partial class FM_God
     {
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FM_God));
+            // System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FM_God)); // removed: no .resx
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.button63 = new System.Windows.Forms.Button();
@@ -1270,7 +1270,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(603, 372);
             this.Controls.Add(this.tabControl1);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            // this.Icon = ...; // removed: no .resx embedded resource
             this.MaximizeBox = false;
             this.Name = "FM_God";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -1409,4 +1409,5 @@
         private System.Windows.Forms.WebBrowser webBrowser1;
     }
 }
+
 
